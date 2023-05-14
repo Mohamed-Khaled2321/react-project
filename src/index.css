@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+li {
+  list-style: none;
+}
+
+.nav a {
+  color: aliceblue;
+}
+
+.navbar-nav li :hover {
+  color: aqua;
+  transition: 0.5s;
+}
+
+.navbar-nav {
+  --bs-nav-link-hover-color: white;
+
+}
+
+.navbar {
+  --bs-navbar-brand-hover-color: white;
+}
+
+.demo {
+  background-color: aliceblue;
+  width: 100px;
+  height: 4px;
+  margin-top: 7px;
+
+}
+
+.icon-img:hover {
+  background-color: rgba(26, 188, 156, 0.9);
+  transition: all 0.6s;
+  cursor: pointer;
+
+
+}
+
+.img-list:hover .icon-img {
+  top: 0;
+  opacity: 1;
+}
+
+.icon-img {
+  opacity: 0;
+}
+
+
+label {
+  font-size: 12px;
+  margin-bottom: 4px;
+  color: rgb(33, 133, 100)
+}
+
+.icon li i {
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+
+.icon i:hover {
+  color: rgb(58, 197, 247);
+  background-color: black;
+  transition: 0.6s;
+
+}
+
